@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
 }
 
 body {
@@ -16,8 +16,7 @@ body {
 .container {
    display: flex;
    background-color: #fff;
-   height: 950px;
-   width: 1000px;
+   
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
    margin: auto;
    margin-top: 150px;
@@ -45,7 +44,7 @@ body {
 .form h2 {
     font-size: 45px;
     color: #f12805;
-    font-weight: 600px;
+    font-weight: 400;
     margin-bottom: 25px; 
 
 }
@@ -102,24 +101,13 @@ label{font-size: 15px;
         font-size: 14px;
         color: #050608;
      }
-     .social {
-        display: flex;
-     }
+    
      .social {
         width: 50px;
         margin-right: 30px;
+        justify-content: space-between;
      }
-     @media(max-width:990px){
-        .container {
-            width: 350px;
-            height: 800px;
-            margin-top: 50px;
-        }
-        .info {
-            display: none;
-        }
-        .form {
-            width: 100px;
-            padding: 30px;
-        }
+     .error{
+     border: 1px solid #ff0000;
      }
+    
